@@ -42,3 +42,17 @@ const [first, , third] = colors;
 // we can skip elements in array
 console.log(first);
 console.log(third);
+
+const fruits = ["banana", "apple"];
+let [firstFruit = "apple", secondFruit = "banana"] = fruits;
+// Swapping Values(Array)
+[firstFruit, secondFruit] = [secondFruit, firstFruit];
+console.log(`First Fruit: ${firstFruit}`);
+console.log(`Second Fruit: ${secondFruit}`);
+const config = {
+  theme: "dark",
+};
+
+const { theme, fontSize = 16 } = config;
+console.log(theme);
+console.log(fontSize);

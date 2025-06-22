@@ -10,7 +10,7 @@ Each topic is explained with:
 ## 📚 Topics Covered
 
 | #  | Feature                |                   
-|----|------------------------|-
+|----|------------------------|
 | 01 | Template Literals      |  
 | 02 | Destructuring          |     
 | 03 | Object Literals        | 
@@ -33,5 +33,5 @@ Each topic is explained with:
 Clone the repo:
 
 ```bash
-[git clone https://github.com/your-username/es6-features.git](https://github.com/llyas36/JavaScript-ES6.git)
+git clone https://github.com/your-username/es6-features.git](https://github.com/llyas36/JavaScript-ES6.git
 cd JavaScript-ES6

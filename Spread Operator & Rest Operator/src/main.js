@@ -44,6 +44,14 @@ function myFunc(...numbers) {
 result = myFunc(1, 2, 3);
 console.log(result);
 
+function greetAll(...names) {
+  for (const name of names) {
+    console.log(`Hello, ${name}!`);
+  }
+}
+
+greetAll("Llya", "Amin", "Sami");
+
 // in array
 
 var numbers = [1, 2, 3, 4];
